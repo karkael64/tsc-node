@@ -1,0 +1,26 @@
+{
+  "name": "tsc-node",
+  "version": "1.0.0",
+  "main": "dist/tsc-node.js",
+  "types": "dist/tsc-node.d.ts",
+  "module": "src/tsc-node.ts",
+  "sourcemap": "dist/tsc-node.js.map",
+  "sourceMap": "dist/tsc-node.js.map",
+  "author": "karkael <karkael@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "tsc-node": "bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "dependencies": {
+    "command-line": "karkael64/command-line"
+  }
+}
